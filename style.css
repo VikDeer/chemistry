@@ -1,3 +1,13 @@
+.contact{
+	margin-left:10%;
+	padding:4px;
+	display:inline-block;
+	border-style:solid;
+	border-color:#183890;
+	background-color:#183890;
+	border-radius:50%;
+}
+
 .table td{
 	padding:1%;
 	border-style:solid;
