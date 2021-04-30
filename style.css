@@ -127,6 +127,12 @@ margin-top:2%;
 margin-bottom:2%;
 }
 
+@media(max-width:600px){
+	ol{
+		padding-left:3%;
+	}
+}
+
 .content ul{
 list-style-type: square;
 list-style-position: inside;
