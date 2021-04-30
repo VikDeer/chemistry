@@ -69,8 +69,7 @@ header h1 {
 	text-align: center;
 }
 
-.body{
-display:inline-block;
+.inside{
 padding-left:10%;
 padding-right:10%;
 }
