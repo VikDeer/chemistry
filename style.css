@@ -1,3 +1,9 @@
+.aldehyde td{
+	width:50%;
+	text-align: center;
+	font-size:90%;
+}
+
 .contact{
 	margin-left:10%;
 	padding:4px;
@@ -127,16 +133,18 @@ margin-top:2%;
 margin-bottom:2%;
 }
 
+.content ol{
+	padding-left: 3%;
+}
+
 @media(max-width:600px){
 	ol{
 		padding-left:3%;
 	}
-	ul{
-		padding-left:0px;
-	}
 }
 
 .content ul{
+padding-left:0px;
 list-style-type: square;
 list-style-position: inside;
 }
