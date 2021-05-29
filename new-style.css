@@ -16,6 +16,10 @@ body{
 	font-size: x-large;
 }
 
+.icon{
+	margin-right:20px;
+}
+
 .to-main{
 	background-color: #273d64;
 	color: white;
