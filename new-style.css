@@ -13,6 +13,7 @@ body{
 	padding-top: 20px;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
+	font-size: x-large;
 }
 
 .to-main{
@@ -38,6 +39,6 @@ section{
 }
 
 .content{
-	/*width: 80%;
-	margin: auto;*/
+	width: 90%;
+	margin: auto;
 }
