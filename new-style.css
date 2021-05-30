@@ -4,30 +4,32 @@ body{
 }
 
 .page-header{
-	display: flex;
+	/*display: flex;
+	align-items: center;*/
+	/*gap: 20px;
+	height: 200px;*/
+	display: grid;
+	grid-template-columns: 90px 4fr 1fr;
 	align-items: center;
-	gap: 20px;
+
 	background-color: #4B6ECC;
 	color: white;
 	padding: 30px;
 	padding-top: 20px;
 	border-bottom-left-radius: 5px;
 	border-bottom-right-radius: 5px;
-	font-size: x-large;
-}
-
-.icon{
-	margin-right:20px;
+	/*font-size: x-large;*/
 }
 
 .to-main{
 	background-color: #273d64;
 	color: white;
 	border-radius: 10px;
-	padding: 25px;
+	padding: 20px;
 	margin-left: auto;
 	text-decoration: none;
 	white-space: nowrap;
+	font-size: large;
 }
 
 .to-main:hover{
