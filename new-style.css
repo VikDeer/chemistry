@@ -92,6 +92,11 @@ section{
 	padding: 5px;
 }
 
+.content img{
+	width:100%;
+	height:auto;
+}
+
 .content li{
 	border:4px solid rgba(84,150,191,0.2);
 	border-radius: 10px;
