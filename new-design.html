@@ -6,37 +6,127 @@
 	<link rel="stylesheet" href="new-style.css">
 </head>
 <body>
-<header>
-	<div class="page-header">
-		<img class="icon" src="files/icon.png" alt="icon" width="70" height="70">
-		<h1>Конспект по химии: ароматические углеводороды</h1>
-		<a class="to-main" href="#">На главную</a>
-	</div>
-</header>
-
-<section>
-	<div class="content">
-		<h2>Содержание</h2>
-		<ul>
-			<li>Определение</li>
-			<li>Физические свойства</li>
-			<li>Получение</li>
-			<li>Химические свойства</li>
-		</ul>
-	</div>
-</section>
+	<header>
+		<div class="page-header">
+			<img class="icon visually-hidden" src="files/icon.png" alt="icon" width="40" height="40">
+			<a class="to-main" href="#">На главную</a>
+			<h1>Конспект по химии: алканы</h1>
+		</div>
+	</header>
+	<section>
+		<div class="container">	
+			<h2>Содержание</h2>	
+			<ul class="page-nav">
+				<li><a href="#definition">Определение</a></li>
+				<li><a href="#physycal">Физические свойства</a></li>
+				<li><a href="#getting">Получение</a></li>
+				<li><a href="#chemical">Химические свойства</a></li>
+			</ul>
+		</div>
+	</section>
 <hr>
-<section>
-	<div class="content">
-		<h2>Определение</h2>
-		<p><i>Термин</i> - определение</p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	</div>
-</section>
+	<section>
+		<div class="container">	
+			<h2 id="definition">Определение</h2>
+	 			<p><i>Алканы</i> — углеводороды, в молекулах которых атомы связаны одинарными связями и которые соответствуют общей формуле:</p>
+					<div class="formulas main-formulas">C<sub>n</sub>H<sub>2n+2</sub></div>
+	 			<p>Имеют sp<sup>3</sup> гибридизацию.
+				<br>Угол между атомами <span class="formulas">C</span> и <span class="formulas">H</span> – 109°28'.</p>
+
+			<h2>Примеры</h2>
+	 			<p><span class="formulas">CH<sub>4</sub></span> — метан
+				<br><span class="formulas">C<sub>2</sub>H<sub>6</sub></span> — этан
+				<br><span class="formulas">C<sub>3</sub>H<sub>8</sub></span> — пропан</p>
+
+			<h2>Номенклатура и изомерия</h2>
+				<p>При присутствии радикалов нумерация атомов <span class="formulas">C</span> начинается с ближнего к ним края.</p>
+	 			<ul class="content">
+					<li>Изомерия углеродного скелета
+						<br><img src="alkan/izomeria_alkan.jpeg" alt="Изомерия углеродного скелета"></li>
+					<li>Пространственная изомерия</li>
+				</ul>
+		</div>
+	</section>
+<hr>
+	<section>
+		<div class="container">
+			<h2 id="physycal">Физические свойства</h2>
+	 			<dl><dt class="formulas">CH<sub>4</sub> - C<sub>4</sub>H<sub>10</sub></dt><dd>— газы</dd></dl>
+	 			<dl><dt class="formulas">C<sub>5</sub>H<sub>12</sub> - C<sub>15</sub>H<sub>32</sub></dt><dd>— жидкости</dd></dl>
+	 			<dl><dt class="formulas">C<sub>16</sub>H<sub>34</sub> - ...</dt><dd>— твердые</dd></dl>
+		</div>
+	</section>
+<hr>
+	<section>
+		<div class="container">
+			<h2 id="getting">Получение</h2>
+	 			<ol class="content">
+					<li>Изомеризация:
+						<br><img src="alkan/izomerizacia_alkan.png" alt="Изомеризация алканов"></li>
+					<li>Гидрирование алкенов:
+						<br><img src="alkan/gidrirovanie_alkenov.png" alt="Гидрирование алкенов"></li>
+					<li>Получение синтетического бензина:
+						<br><img src="alkan/sintetich_bensin.png" alt="Получение синтетического бензина"></li>
+					<li>Декарбоксилирование солей карбоновых кислот:
+						<br><img src="alkan/carbon_kisloty.png" alt="Декарбоксилирование солей карбоновых кислот"></li>
+					<li>Синтез Вюрца (взаимодействие гелогеналканов с щелочным Ме):
+						<p class="formulas">2CH<sub>3</sub>-CH<sub>2</sub>-Br + 2Na —> CH<sub>3</sub>-CH<sub>2</sub>-CH<sub>2</sub>-CH<sub>3</sub> + 2NaBr</p></li>
+					<li>Гидролиз карбидов (в степени окисления -4):
+						<br><img src="alkan/gidrolis_carbidov.png" alt="Гидролиз карбидов"></li>
+				</ol>
+		</div>
+	</section>
+<hr>
+	<section>
+		<div class="container">
+			<h2 id="chemical">Химические свойства</h2>
+				<ol class="content">
+					<li>Галогенирование:
+						<br><img src="alkan/galogenirovanie_alkanov.png" alt="Галогенирование">
+						<p>При избытке галогена продолжают замещаться атомы водорода</li>
+					<li>Нитрирование:
+						<br><img src="alkan/nitrirovanie_alkanov.png" alt="Нитрирование"></li>
+					<li>Дегидрирование:
+						<br><img src="alkan/degidrirovanie_alkanov.png" alt="Дегидрирование">
+					<hr class="divide">
+	    		        <img src="alkan/degidr_alkanov.png" alt="Дегидрирование"></li>
+	    		    <li>Пиролиз метана:
+	     			   	<br><img src="alkan/pirolis_metana.png" alt="Пиролиз метана"></li>
+	      			<li>Дегидроциклизация (C≥6):
+	        			<br><img src="alkan/degidrciklo_alkanov.png" alt="Дегидроциклизация"></li>
+	        		<li>Окисление:
+	        			<br><img src="alkan/oke_kat_alkan.png" alt="Окисление при катализаторе 1">
+	        			<br><img src="alkan/oke_kat_alkan2.png" alt="Окисление при катализаторе 2">
+	        			<p>Горение:
+	        	 		<br><img src="alkan/gorenie_alkanov.png" alt="Горение"></p>
+	        			<p>при недостатке O<sub>2</sub>:
+	        	 		<br><img src="alkan/oke_nepoln_alkan.png" alt="Горение в недостатке кислорода"></p></li>
+	      			<li>Пропускание над водяным паром (способ получения синтез-газа):
+	        			<br><img src="alkan/sintes_gas.png" alt="Синтез-газ"></li>
+	  			</ol>
+		</div>
+	</section>
+
+	<a href="#" class="scrolltop"><img src="files/arrow-top-black.svg" alt="Вверх" width="40" height="40"></a>
+	<script>
+		let Button = document.querySelector('.scrolltop');
+		Button.onclick = function() {
+    	  window.scrollTo(pageXOffset, 0);
+  		}
+		window.addEventListener('scroll', function() {
+  			if (window.pageYOffset >= 100) {
+  				Button.classList.remove('visually-hidden');
+  			} else{
+  				Button.classList.add('visually-hidden');
+  			};
+		});
+	</script>
+
+	<footer>
+		<div class="page-footer">
+			<h2>Контакты</h2>
+			<a href="https://vk.com/kosa_deresa"><img src="files/vk-icon.svg" alt="vk-icon"></a>
+		</div>
+	</footer>
 </body>
 </html>
