@@ -69,6 +69,8 @@ ul{
 	background-color: white;
 	border-radius: 5px;
 	padding: 10px;
+	padding-left:15px;
+	padding-right:15px;
 }
 
 .container img{
