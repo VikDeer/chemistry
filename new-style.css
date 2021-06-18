@@ -23,9 +23,9 @@ h2{
 	font-weight: normal;
 	font-size: 25px;
 	margin-left: 30px;
-	border-bottom: 1px solid rgba(0, 0, 0, 0.7);
-	display: inline-block;
 	margin-bottom: 0;
+	display: inline-block;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
 ul{
@@ -64,19 +64,19 @@ ul{
 	color:black;
 }
 
-section{
+/*section{
 	background-color: white;	
 	border-radius: 5px;	
 	margin:0;
 	padding-top: 10px;	
 	padding-bottom: 10px;
-} 
+} */
 
-.container{	
-	width: 90%;
+.container{
 	margin: 0;
-	margin-left: auto;
-	margin-right: auto;
+	background-color: white;
+	border-radius: 5px;
+	padding: 10px;
 }
 
 .formulas{
@@ -92,9 +92,8 @@ section{
 	padding: 5px;
 }
 
-.content img{
-	width:100%;
-	height:auto;
+.content{
+	padding-left: 15px;
 }
 
 .content li{
@@ -113,13 +112,9 @@ section{
 .scrolltop{
 	display: inline-block;
 	position: fixed;
-	bottom: 0;
+	bottom: 5px;
 	right: 10px;
 	opacity: 0.6;
-}
-
-.scrolltop:hover{
-	opacity: 1;
 }
 
 .page-footer{
@@ -136,6 +131,7 @@ section{
 	border: none;
 	display: block;
 	margin-bottom: 10px;
+	margin-top: 0;
 }
 
 .page-footer a{ 
@@ -146,4 +142,30 @@ section{
 	border-radius: 50%;
 	text-align: center;
 	background-color:#183890;
+}
+
+@media(min-width: 1040px){
+	.container-center{
+		width: 60%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.container{
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+
+	.scrolltop{
+		opacity: 0.7;
+	}
+
+	.scrolltop:hover{
+		opacity: 1;
+	}
+
+	.scrolltop img{
+		width: 70px;
+		height: 70px;
+	}
 }
